@@ -1,7 +1,7 @@
 # Cars Dealership Capstone Project
 
 ## Project Details
-* **Project Name:** Full-Stack Cars Dealership Web Application
+* **Project Name:** fullstack_developer_capstone
 * **Repository Name:** cars-dealership-capstone
 
 ## Description
