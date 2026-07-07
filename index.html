@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dealerships</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Best Cars</a>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                </ul>
+                <div class="form-inline my-2 my-lg-0">
+                    <span class="navbar-text mr-3" style="color: black; font-size: 16px;">
+                        Welcome, <strong>admin</strong>
+                    </span>
+                    <button class="btn btn-outline-danger my-2 my-sm-0" type="button">Logout</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 class="mb-4">All Dealers</h2>
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Dealer Name</th>
+                    <th>City</th>
+                    <th>Address</th>
+                    <th>Zip</th>
+                    <th>State</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><a href="#">El Paso Auto</a></td>
+                    <td>El Paso</td>
+                    <td>3 Nova Court</td>
+                    <td>88563</td>
+                    <td>Texas</td>
+                    <td><a href="#" class="btn btn-primary btn-sm">Review Dealer</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="#">KC Auto</a></td>
+                    <td>Kansas City</td>
+                    <td>123 Auto Drive</td>
+                    <td>66101</td>
+                    <td>Kansas</td>
+                    <td><a href="#" class="btn btn-primary btn-sm">Review Dealer</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="#">Denver Auto</a></td>
+                    <td>Denver</td>
+                    <td>456 Mountain View</td>
+                    <td>80202</td>
+                    <td>Colorado</td>
+                    <td><a href="#" class="btn btn-primary btn-sm">Review Dealer</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

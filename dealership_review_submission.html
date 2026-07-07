@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post a Review - KC Auto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Best Cars</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                </ul>
+                <div class="form-inline my-2 my-lg-0">
+                    <span class="navbar-text mr-3" style="color: black; font-size: 16px;">
+                        Welcome, <strong>admin</strong>
+                    </span>
+                    <button class="btn btn-outline-danger my-2 my-sm-0" type="button">Logout</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5" style="max-width: 600px;">
+        <h2 class="mb-4">Write a Review for KC Auto</h2>
+        <form>
+            <div class="form-group mb-4">
+                <label for="reviewContent"><strong>Enter your review:</strong></label>
+                <textarea class="form-control" id="reviewContent" rows="4" style="border: 2px solid #28a745;">Absolutely wonderful experience! The team was highly professional, and I love my new Audi. The financing process was quick and transparent.</textarea>
+            </div>
+            
+            <div class="form-group form-check mb-4">
+                <input type="checkbox" class="form-check-input" id="purchaseCheck" checked>
+                <label class="form-check-label" for="purchaseCheck">Has purchased a car from this dealership</label>
+            </div>
+            
+            <div class="form-group mb-4">
+                <label for="carSelect"><strong>Select your car (Make-Model-Year):</strong></label>
+                <select class="form-control" id="carSelect">
+                    <option>Toyota - Camry - 2021</option>
+                    <option selected>Audi - A4 - 2020</option>
+                    <option>Honda - Civic - 2019</option>
+                </select>
+            </div>
+            
+            <div class="form-group mb-5">
+                <label for="purchaseDate"><strong>Select Your Purchase Date:</strong></label>
+                <input type="date" class="form-control" id="purchaseDate" value="2023-01-15">
+            </div>
+            
+            <button type="button" class="btn btn-primary btn-block btn-lg">Submit Review</button>
+        </form>
+    </div>
+</body>
+</html>
